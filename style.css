@@ -134,3 +134,33 @@ button:hover {
 .bottom-butt {
   margin-bottom: 0rem;
 }
+
+/* Tablet Styles */
+@media (min-width: 17.4rem) and (max-width: 23.5rem) {
+  .container {
+    padding: var(--space-500);
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  #card-wrap {
+    width: 23.5rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 17.4rem) {
+  .container {
+    padding: var(--space-300);
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  #card-wrap {
+    width: 17.4rem;
+  }
+}
