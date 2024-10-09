@@ -35,8 +35,66 @@
 
 
 
-body {
+body, html {
   font-family: var(--text-preset2-font-family);
+  background-color: var(--color-grey-900);
+  height: 100%;
   padding: 0px;
   border: 0px;
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+}
+
+#card-wrap {
+  background-color: var(--color-grey-800);
+  padding: var(--space-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-300);
+  border-radius: 0.75rem;
+  flex: 1 0 0;
+  color: var(--color-white);
+}
+
+#avatar-image {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 62rem;
+  margin-bottom: var(--space-300);
+}
+
+#title {
+  display: block;
+}
+
+#name {
+  font-family: var(--text-preset1-font-family);
+  font-size: var(--text-preset1-font-size);
+  font-weight: 600;
+  margin: 0px;
+}
+
+#location {
+  font-family: var(--text-preset2-font-family);
+  font-size: var(--text-preset2-font-size);
+  font-style: normal;
+  font-weight: var(--text-preset2-font-weight);
+  line-height: var(--text-preset2-bold-line-height);
+  color: var(--color-green);
+  padding-top: var(--space-50);
+  padding-bottom: var(--space-300);
+  margin: 0px;
+}
+
+#description {
+  font-size: var(--text-preset2-font-size);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--text-preset2-line-height);
+  align-self: stretch;
+  margin: 0px;
+  padding-bottom: var(--space-300);
 }
