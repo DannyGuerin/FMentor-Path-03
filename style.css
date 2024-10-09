@@ -98,3 +98,39 @@ body, html {
   margin: 0px;
   padding-bottom: var(--space-300);
 }
+
+#button-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 17.5rem;
+  border-style: none;
+  padding: var(--space-150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-100);
+  align-self: stretch;
+  border-radius: 0.5rem;
+  background-color: var(--color-grey-700);
+  color: var(--color-white);
+  font-family: var(--text-preset2-bold-font-size);
+  font-style: normal;
+  font-weight: var(--text-preset2-bold-font-weight);
+  line-height: var(--text-preset2-line-height);
+  margin-bottom: var(--space-200);
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-green);
+  color: var(--color-black);
+  transform: scale(1.05); /* Slightly enlarges the button */
+  cursor: pointer;
+}
+
+.bottom-butt {
+  margin-bottom: 0rem;
+}
