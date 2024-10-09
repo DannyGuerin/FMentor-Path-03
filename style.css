@@ -96,7 +96,6 @@ body, html {
   line-height: var(--text-preset2-line-height);
   align-self: stretch;
   margin: 0px;
-  padding-bottom: var(--space-300);
 }
 
 #button-wrap {
